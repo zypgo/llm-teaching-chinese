@@ -82,7 +82,7 @@
 
 1. **克隆项目**
 ```bash
-git clone <repository-url>
+git clone https://github.com/zypgo/llm-teaching-chinese.git
 cd llm-teaching-chinese
 ```
 
@@ -257,6 +257,9 @@ export const InteractiveComponent: React.FC = () => {
 ## 📞 项目信息
 
 - **项目名称**: LLM 全流程学习平台
+- **项目描述**: 大模型可视化中文教学网站，直观学习各种内容
+- **在线访问**: [llm-teaching-chinese.lovable.app](https://llm-teaching-chinese.lovable.app)
+- **GitHub仓库**: [zypgo/llm-teaching-chinese](https://github.com/zypgo/llm-teaching-chinese)
 - **开源协议**: MIT License
 
 ## 🔮 未来规划
