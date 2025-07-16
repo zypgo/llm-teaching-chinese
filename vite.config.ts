@@ -17,7 +17,16 @@ export default defineConfig({
       : []),
   ],
   server: {
-    port: 8080
+    port: 8080,
+    watch: {
+      ignored: [
+        '**/node_modules/**',
+        '**/dist/**',
+        '**/server/**',
+        '**/attached_assets/**',
+        '**/.git/**'
+      ]
+    }
   },
   resolve: {
     alias: {
